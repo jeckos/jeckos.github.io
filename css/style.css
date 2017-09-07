@@ -404,7 +404,7 @@ section {
         transition: opacity 0.5s; }
         #portfolio .porfolio-con .promo-photo img {
           width: 100%;
-          height: 240px;
+          height: auto;
           object-fit: cover; }
         #portfolio .porfolio-con .promo-photo .descript {
           position: absolute;
