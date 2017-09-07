@@ -82,13 +82,13 @@ $(function() {
             } else if ($(window).scrollTop() > 1 && $('header')[0].classList.contains('sticky')) {
                 $('header').addClass("sticky");
                 $('.logo img')[0].src = "img/logo_white.png";
-                menu.removeClass("showing");
+             
 
             }
         else{
                $('header').removeClass("sticky");
                 $('.logo img')[0].src = "img/logo.png"; 
-            menu.removeClass("showing");
+            
             }
             
 	});
