@@ -264,6 +264,7 @@ h2 {
 
 @media screen and (max-width: 768px) {
   .logo {
+    margin-left: -15px;
     float: none;
     width: 100%;
     text-align: center; }
@@ -277,7 +278,8 @@ h2 {
     padding-top: 10px;
     width: 100%; }
     #bg-fon .header .nav li {
-      margin-right: 0px; }
+      margin-right: 0px;
+      display: block; }
       #bg-fon .header .nav li .active {
         border-bottom: 3px solid #4c4c4c; }
       #bg-fon .header .nav li a {
@@ -295,6 +297,7 @@ h2 {
         #bg-fon .header .nav li a:focus {
           background: none; }
   #bg-fon .header .menu {
+    margin-right: 60px;
     visibility: visible; }
   #bg-fon .my-photo {
     margin-top: 100px;
@@ -376,6 +379,13 @@ h2 {
               background: #302f38; }
         #portfolio .porfolio-con .promo-photo:hover .descript {
           opacity: 1; } }
+
+@media screen and (max-width: 767px) {
+  .logo {
+    margin: 0; }
+  #bg-fon .header .menu {
+    margin-right: 0;
+    visibility: visible; } }
 
 /*
 ──██─███─████─█──█─████─███─────█─███
