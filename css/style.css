@@ -414,7 +414,7 @@ h2 {
   .logo {
     margin: 0; }
   #bg-fon .header label[for="menu"] {
-    margin-right: 0;
+    margin-right: 20px;
     visibility: visible;
     font-size: 20px;
     color: #fff;
