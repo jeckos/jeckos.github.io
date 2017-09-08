@@ -413,9 +413,14 @@ h2 {
 @media screen and (max-width: 767px) {
   .logo {
     margin: 0; }
-  #bg-fon .header #menu {
+  #bg-fon .header label[for="menu"] {
     margin-right: 0;
-    visibility: visible; } }
+    visibility: visible;
+    font-size: 20px;
+    color: #fff;
+    float: right; }
+    #bg-fon .header label[for="menu"]:hover {
+      color: #eee; } }
 
 /*
 ──██─███─████─█──█─████─███─────█─███
