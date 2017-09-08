@@ -38,12 +38,18 @@
             border-bottom: 3px solid #4c4c4c; }
           #bg-fon .header .nav li a:focus {
             background: none; }
-    #bg-fon .header .menu {
+    #bg-fon .header #menu {
       margin-top: -40px;
       float: right;
+      visibility: hidden; }
+    #bg-fon .header label[for="menu"] {
+      margin-top: -40px;
       visibility: hidden;
       font-size: 20px;
-      color: #fff; }
+      color: #fff;
+      float: right; }
+      #bg-fon .header label[for="menu"]:hover {
+        color: #eee; }
   #bg-fon .sticky {
     background: #7ebc59;
     padding: 10px 20px 10px 20px; }
@@ -96,7 +102,7 @@
     font-family: "Ubuntu";
     font-weight: 700; }
   #bg-fon .btn {
-    background: #71be6b;
+    background: #7ebc59;
     font-size: 24px;
     color: #fff;
     text-transform: uppercase;
@@ -110,13 +116,14 @@
 #portfolio {
   background: #19181d;
   overflow: hidden;
-  height: auto; }
+  height: auto;
+  padding-bottom: 50px; }
   #portfolio h2 {
     margin-top: 100px;
     text-transform: uppercase;
     margin-bottom: 80px;
     padding-bottom: 20px;
-    border-bottom: 5px solid; }
+    border-bottom: 5px solid #fff; }
   #portfolio .porfolio-con {
     padding-bottom: 60px; }
     #portfolio .porfolio-con .promo-photo {
@@ -133,9 +140,9 @@
         top: 0;
         width: 100%;
         height: 100%;
-        background: -moz-linear-gradient(top, transparent 0%, #71be6b 100%);
-        background: -webkit-linear-gradient(top, transparent 0%, #71be6b 100%);
-        background: linear-gradient(to bottom, transparent 0%, #71be6b 50%, #71be6b 100%);
+        background: -moz-linear-gradient(top, transparent 0%, #7ebc59 100%);
+        background: -webkit-linear-gradient(top, transparent 0%, #7ebc59 100%);
+        background: linear-gradient(to bottom, transparent 0%, #7ebc59 50%, #7ebc59 100%);
         filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#e671be6b', GradientType=0);
         z-index: 1;
         opacity: 0;
@@ -149,7 +156,10 @@
           transform: translateX(-50%); }
           #portfolio .porfolio-con .promo-photo .descript .cnt h2 {
             font-size: 20px;
-            margin-top: 100px; }
+            margin-top: 100px;
+            margin-bottom: 0;
+            border: none;
+            text-transform: none; }
           #portfolio .porfolio-con .promo-photo .descript .cnt .btn {
             text-transform: uppercase;
             border: none;
@@ -167,14 +177,14 @@
     width: 100%;
     text-align: center; }
     #portfolio #social h2 {
+      text-align: left;
       font-size: 32px;
       margin-top: 20px;
       font-family: "BrutalBold";
       text-transform: uppercase;
       color: #ccc;
       padding-bottom: 20px;
-      margin-bottom: 10px;
-      border: none; }
+      margin-bottom: 10px; }
     #portfolio #social p {
       width: 100%;
       font-size: 24px;
@@ -206,6 +216,12 @@
       border: 3px solid #4267b2;
       background: #4267b2;
       color: #fff; }
+
+footer {
+  text-align: right;
+  padding: 30px;
+  background: #3a3947;
+  font-family: "BrutalRegular"; }
 
 /* |...\КОНЕЦ ОСНОВНЫХ СТИЛЕЙ/..|
 
@@ -296,9 +312,13 @@ h2 {
           border-bottom: 3px solid #4c4c4c; }
         #bg-fon .header .nav li a:focus {
           background: none; }
-  #bg-fon .header .menu {
-    margin-right: 60px;
-    visibility: visible; }
+  #bg-fon .header label[for="menu"] {
+    visibility: visible;
+    font-size: 20px;
+    color: #fff;
+    float: right; }
+    #bg-fon .header label[for="menu"]:hover {
+      color: #eee; }
   #bg-fon .my-photo {
     margin-top: 100px;
     display: inline-block;
@@ -319,7 +339,7 @@ h2 {
     font-family: "Ubuntu";
     font-weight: 700; }
   #bg-fon .btn {
-    background: #71be6b;
+    background: #7ebc59;
     font-size: 20px;
     color: #fff;
     text-transform: uppercase;
@@ -333,10 +353,14 @@ h2 {
     background: #19181d;
     overflow: hidden;
     height: auto; }
-    #portfolio .porfolio-con {
+    #portfolio h2 {
       margin-top: 100px;
-      padding-bottom: 60px;
-      border-bottom: 3px solid #ccc; }
+      text-transform: uppercase;
+      margin-bottom: 0;
+      padding-bottom: 10px;
+      border-bottom: 5px solid #fff; }
+    #portfolio .porfolio-con {
+      margin-top: 50px; }
       #portfolio .porfolio-con .promo-photo {
         overflow: hidden;
         margin-bottom: 25px;
@@ -351,9 +375,9 @@ h2 {
           top: 0;
           width: 100%;
           height: 100%;
-          background: -moz-linear-gradient(top, transparent 0%, #71be6b 100%);
-          background: -webkit-linear-gradient(top, transparent 0%, #71be6b 100%);
-          background: linear-gradient(to bottom, transparent 0%, #71be6b 50%, #71be6b 100%);
+          background: -moz-linear-gradient(top, transparent 0%, #7ebc59 100%);
+          background: -webkit-linear-gradient(top, transparent 0%, #7ebc59 100%);
+          background: linear-gradient(to bottom, transparent 0%, #7ebc59 50%, #7ebc59 100%);
           filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#e671be6b', GradientType=0);
           z-index: 1;
           opacity: 0;
@@ -378,7 +402,12 @@ h2 {
             #portfolio .porfolio-con .promo-photo .descript .btn:hover {
               background: #302f38; }
         #portfolio .porfolio-con .promo-photo:hover .descript {
-          opacity: 1; } }
+          opacity: 1; }
+  footer {
+    text-align: center;
+    padding: 30px;
+    background: #3a3947;
+    font-family: "BrutalRegular"; } }
 
 @media screen and (max-width: 767px) {
   .logo {

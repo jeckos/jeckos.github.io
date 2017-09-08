@@ -66,17 +66,24 @@ function onScroll(event) {
 }
 
 $(function () {
-    var pull = $('.menu');
+    var pull = $('#menu');
     menu = $('.nav');
     header = $('header');
     menuHeight = menu.height();
 
-    $(pull).on('click', function (e) {
-        e.preventDefault();
-        menu.slideToggle();
+    $(pull).on('click', function () {
+       if(pull[0].checked){
+         menu.slideToggle();  
+       }else{
+          menu.slideToggle('normal', function(){ $(this).css("display","");});  
+       }
+        
 
+        
+        
         if ($(".nav")[0].classList.contains('showing')) {
             menu.removeClass("showing");
+            
         } else {
             menu.addClass("showing");
         }
