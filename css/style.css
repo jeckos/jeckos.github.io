@@ -313,6 +313,7 @@ h2 {
         #bg-fon .header .nav li a:focus {
           background: none; }
   #bg-fon .header label[for="menu"] {
+    margin-right: 60px;
     visibility: visible;
     font-size: 20px;
     color: #fff;
@@ -412,7 +413,7 @@ h2 {
 @media screen and (max-width: 767px) {
   .logo {
     margin: 0; }
-  #bg-fon .header .menu {
+  #bg-fon .header #menu {
     margin-right: 0;
     visibility: visible; } }
 
