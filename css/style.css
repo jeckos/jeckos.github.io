@@ -27,11 +27,12 @@
           border-bottom: 3px solid #4c4c4c; }
         #bg-fon .header .nav li a {
           color: #71be6b;
-          font-family: "BrutalBold";
+          font-family: "Brutal";
           text-transform: uppercase;
           padding: 10px 10px 12px;
           border-bottom-color: transparent;
           outline: none;
+          font-weight: 700;
           transition: all 0.5s ease-in-out; }
           #bg-fon .header .nav li a:hover {
             background: none;
@@ -61,7 +62,8 @@
           border-bottom: 3px solid #4c4c4c; }
         #bg-fon .sticky .nav li a {
           color: #fff;
-          font-family: "BrutalBold";
+          font-family: "Brutal";
+          font-weight: 700;
           text-transform: uppercase;
           padding: 10px 10px 12px;
           transition: border 0.3s ease-in-out; }
@@ -109,6 +111,7 @@
     border: none;
     padding: 20px 30px;
     margin-top: 100px;
+    font-weight: 700;
     transition: background 0.3s ease-in-out; }
     #bg-fon .btn:hover {
       background: #5fa15a; }
@@ -122,8 +125,9 @@
     margin-top: 100px;
     text-transform: uppercase;
     margin-bottom: 80px;
-    padding-bottom: 20px;
-    border-bottom: 5px solid #fff; }
+    padding-bottom: 10px;
+    border-bottom: 5px solid #fff;
+    color: #fff; }
   #portfolio .porfolio-con {
     padding-bottom: 60px; }
     #portfolio .porfolio-con .promo-photo {
@@ -153,23 +157,26 @@
           position: absolute;
           bottom: 20%;
           left: 50%;
+          width: 100%;
           transform: translateX(-50%); }
           #portfolio .porfolio-con .promo-photo .descript .cnt h2 {
+            font-weight: 700;
             font-size: 20px;
             margin-top: 100px;
-            margin-bottom: 0;
+            margin-bottom: 20px;
             border: none;
             text-transform: none; }
-          #portfolio .porfolio-con .promo-photo .descript .cnt .btn {
+          #portfolio .porfolio-con .promo-photo .descript .cnt .btn_view {
+            text-decoration: none;
             text-transform: uppercase;
             border: none;
-            margin-top: 20px;
             border-radius: 0;
             background: #19181d;
             color: #71be6b;
             padding: 10px;
+            font-weight: 700;
             transition: background 0.3s ease; }
-            #portfolio .porfolio-con .promo-photo .descript .cnt .btn:hover {
+            #portfolio .porfolio-con .promo-photo .descript .cnt .btn_view:hover {
               background: #302f38; }
       #portfolio .porfolio-con .promo-photo:hover .descript {
         opacity: 1; }
@@ -180,9 +187,9 @@
       text-align: left;
       font-size: 32px;
       margin-top: 20px;
-      font-family: "BrutalBold";
+      font-family: "Brutal";
       text-transform: uppercase;
-      color: #ccc;
+      color: #fff;
       padding-bottom: 20px;
       margin-bottom: 10px; }
     #portfolio #social p {
@@ -221,7 +228,7 @@ footer {
   text-align: right;
   padding: 30px;
   background: #3a3947;
-  font-family: "BrutalRegular"; }
+  font-family: "Brutal"; }
 
 /* |...\КОНЕЦ ОСНОВНЫХ СТИЛЕЙ/..|
 
@@ -229,28 +236,28 @@ footer {
 
    |...\ПОДКЛЮЧЕНИЕ ШРИФТОВ/..|*/
 @font-face {
-  font-family: "BrutalBold";
+  font-family: "Brutal";
   src: url("../fonts/Brutal/BrutalBold/BrutalBold.eot");
   src: url("../fonts/Brutal/BrutalBold/BrutalBold.eot?#iefix") format("embedded-opentype"), url("../fonts/Brutal/BrutalBold/BrutalBold.woff") format("woff"), url("../fonts/Brutal/BrutalBold/BrutalBold.ttf") format("truetype"), url("../fonts/Brutal/BrutalBold/BrutalBold.svg#@{font-name}") format("svg");
   font-weight: 700;
   font-style: normal; }
 
 @font-face {
-  font-family: "BrutalMedium";
+  font-family: "Brutal";
   src: url("../fonts/Brutal/BrutalMedium/BrutalMedium.eot");
   src: url("../fonts/Brutal/BrutalMedium/BrutalMedium.eot?#iefix") format("embedded-opentype"), url("../fonts/Brutal/BrutalMedium/BrutalMedium.woff") format("woff"), url("../fonts/Brutal/BrutalMedium/BrutalMedium.ttf") format("truetype"), url("../fonts/Brutal/BrutalMedium/BrutalMedium.svg#@{font-name}") format("svg");
   font-weight: 500;
   font-style: normal; }
 
 @font-face {
-  font-family: "BrutalRegular";
+  font-family: "Brutal";
   src: url("../fonts/Brutal/BrutalRegular/BrutalRegular.eot");
   src: url("../fonts/Brutal/BrutalRegular/BrutalRegular.eot?#iefix") format("embedded-opentype"), url("../fonts/Brutal/BrutalRegular/BrutalRegular.woff") format("woff"), url("../fonts/Brutal/BrutalRegular/BrutalRegular.ttf") format("truetype"), url("../fonts/Brutal/BrutalRegular/BrutalRegular.svg#@{font-name}") format("svg");
   font-weight: 400;
   font-style: normal; }
 
 @font-face {
-  font-family: "BrutalLight";
+  font-family: "Brutal";
   src: url("../fonts/Brutal/BrutalLight/BrutalLight.eot");
   src: url("../fonts/Brutal/BrutalLight/BrutalLight.eot?#iefix") format("embedded-opentype"), url("../fonts/Brutal/BrutalLight/BrutalLight.woff") format("woff"), url("../fonts/Brutal/BrutalLight/BrutalLight.ttf") format("truetype"), url("../fonts/Brutal/BrutalLight/BrutalLight.svg#@{font-name}") format("svg");
   font-weight: 300;
@@ -265,7 +272,7 @@ footer {
 
 body {
   background: #ccc;
-  font-family: "BrutalBold";
+  font-family: "Brutal";
   color: #fff; }
 
 p {
@@ -276,7 +283,8 @@ section {
 
 h2 {
   font-size: 36px;
-  font-family: "BrutalBold"; }
+  font-family: "Brutal";
+  font-weight: 700; }
 
 @media screen and (max-width: 768px) {
   .logo {
@@ -300,7 +308,7 @@ h2 {
         border-bottom: 3px solid #4c4c4c; }
       #bg-fon .header .nav li a {
         color: #fff;
-        font-family: "BrutalBold";
+        font-family: "Brutal";
         text-transform: uppercase;
         padding: 10px 10px 12px;
         border-bottom-color: transparent;
@@ -408,7 +416,7 @@ h2 {
     text-align: center;
     padding: 30px;
     background: #3a3947;
-    font-family: "BrutalRegular"; } }
+    font-family: "Brutal"; } }
 
 @media screen and (max-width: 767px) {
   .logo {
