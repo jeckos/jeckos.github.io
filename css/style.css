@@ -278,7 +278,7 @@
 
 #portfolio #social p {
     width: 100%;
-    font-size: 24px;
+    font-size: 18px;
     margin: 15px 0;
     cursor: pointer;
 }
@@ -298,26 +298,32 @@
 }
 
 #portfolio #social p a:hover {
-    border: 3px solid #7ebc59;
-    background: #7ebc59;
+    border: 3px solid #02b875;
+    background: #02b875;
     color: #fff;
 }
 
 #portfolio #social .vk a:hover {
-    border: 3px solid #466a94;
-    background: #466a94;
+    border: 3px solid #4c75a3;
+    background: #4c75a3;
     color: #fff;
 }
 
 #portfolio #social .g-plus a:hover {
-    border: 3px solid #db4437;
-    background: #db4437;
+    border: 3px solid #dd4b39;
+    background: #dd4b39;
     color: #fff;
 }
 
 #portfolio #social .facebook a:hover {
-    border: 3px solid #4267b2;
-    background: #4267b2;
+    border: 3px solid #3b5999;
+    background: #3b5999;
+    color: #fff;
+}
+
+#portfolio #social .linkedin a:hover {
+    border: 3px solid #0077B5;
+    background: #0077B5;
     color: #fff;
 }
 
